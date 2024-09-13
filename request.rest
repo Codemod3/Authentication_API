@@ -1,0 +1,23 @@
+#rest extension to check server without manually starting and restaring the server
+
+GET http://localhost:3000/users
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Kyle",
+    "password": "password"
+}
+
+##
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Kyle",
+    "password": "password"
+}
